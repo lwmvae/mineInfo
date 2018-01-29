@@ -1,0 +1,8 @@
+<!--pages/projectExperience/projectExperience.wxml-->
+<view class='container'>
+  <view wx:for-items="{{experience}}" class='detail'>
+    <text class='title'>{{item.date}} -- {{item.event}}</text>   
+    <text class='content'>{{item.describe}}</text>
+  </view>
+</view>
+ 

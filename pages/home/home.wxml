@@ -1,0 +1,6 @@
+<view class='container'>
+  <image src='./xusong.jpg' class='head-img'></image>
+  <block wx:for-items="{{info}}">
+    <!-- <text class='content'>{{item.title}} : {{item.content}}</text> -->
+  </block>
+</view>

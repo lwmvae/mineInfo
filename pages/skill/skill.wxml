@@ -1,0 +1,5 @@
+<view class='container'>
+  <view class='skill' wx:for-items="{{skill}}">
+    <text class='skill-detail'>{{index+1}}.{{item}}</text>
+  </view>
+</view>
