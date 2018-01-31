@@ -1,31 +1,37 @@
 {
   "pages": [
-    "pages/skill/skill",
+    "pages/home/home",
     "pages/projectExperience/projectExperience",
-    "pages/home/home"
+    "pages/skill/skill"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "简历",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#333",
-    "selectedColor": "#1aad19",
+    "selectedColor": "#09bb07",
     "borderStyle": "white",
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "首页"
+        "text": "基本信息",
+        "iconPath":"./image/icon.png",
+        "selectedIconPath": "./image/icon_HL.png"
       },
       {
         "pagePath": "pages/projectExperience/projectExperience",
-        "text": "日志"
+        "text": "项目经验",
+        "iconPath": "./image/icon.png",
+        "selectedIconPath": "./image/icon_HL.png"
       },
       {
         "pagePath": "pages/skill/skill",
-        "text": "后台"
+        "text": "个人技能",
+        "iconPath": "./image/icon.png",
+        "selectedIconPath": "./image/icon_HL.png"
       }
     ]
   }

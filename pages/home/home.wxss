@@ -8,6 +8,9 @@
   margin: 50px auto 0;
   border-radius: 50%;
 }
-.content{
+.detail{
   margin-top: 20px;
+}
+.content{
+  color:#09bb07;
 }

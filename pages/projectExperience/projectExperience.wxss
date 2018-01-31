@@ -1,10 +1,10 @@
-/* pages/projectExperience/projectExperience.wxss */
 .detail{
   margin: 10px;
 }
 .title{
   display: block;
-  text-align: center
+  text-align: center;
+  color:#09bb07;
 }
 .content{
   display: block;
